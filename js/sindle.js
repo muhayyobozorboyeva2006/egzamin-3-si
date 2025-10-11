@@ -33,7 +33,7 @@ singleProduct.map((el)=>{
 
 let homeCards = document.getElementById("home-card")
 let filterProducts = products.filter((el) => el.discount > 0)
-let sliceProducts = filterProducts.slice(filterProducts.length - 4, filterProducts.length)
+let sliceProducts = filterProducts.slice(filterProducts.length - 8, filterProducts.length)
 sliceProducts.map((el) => {
     homeCards.innerHTML += `
                   <a href="../imges/tavar1440.html?id=${el.id}" class="aksiy2">
