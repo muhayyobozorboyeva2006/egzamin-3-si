@@ -1,0 +1,54 @@
+#map{
+    background-color:rgb(204, 202, 199) ;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+#maplar{
+    background-image: url('../../paka/image 12.png');
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1200px;
+    height: 170px;
+}
+.map-ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding-bottom: 40px;
+}
+
+
+.map-ul_li{
+    max-width: 120px;
+    height: 42px;
+    border: 3px solid #70C05B;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.map-ul_li:hover {
+    background-color: #70C05B;
+}
+.map-h1{
+    padding-bottom: 20px;
+}
+/* .map-img{
+    max-width: 100%;
+} */
+@media (max-width:900px) {
+    .map-ul{
+        display: grid;
+        grid-template-columns: repeat(2 , auto);
+    }
+    .map-ul_li{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:600px) {
+    .map-h1{
+        text-align: center;
+    }
+}

@@ -1,0 +1,8 @@
+#hero {
+    background-image: url(/paka/Sliders.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
