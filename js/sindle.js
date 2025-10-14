@@ -31,14 +31,14 @@ singleProduct.map((el)=>{
 
 
 
-let homeCards = document.getElementById("home-card")
-let filterProducts = products.filter((el) => el.discount > 0)
-let sliceProducts = filterProducts.slice(filterProducts.length - 8, filterProducts.length)
-sliceProducts.map((el) => {
-    homeCards.innerHTML += `
+let homesindle = document.getElementById("home-card")
+let filtersindle = products.filter((el) => el.discount > 0)
+let slicesindle = filtersindle.slice(filtersindle.length - 8, filtersindle.length)
+slicesindle.map((el) => {
+    homesindle.innerHTML += `
                   <a href="../imges/tavar1440.html?id=${el.id}" class="aksiy2">
             <div class="h-[100px]">
-                <img class="aksiy2-img" src="${el.images[0]}" alt="${el.name}">
+                <img class="aksiy2-img" src="${el.images[2]}" alt="rasm">
                 <p class="aksiyo-p">${el.discount}%</p>
               <img class="like-img" src="../paka/Button (4).png" alt="layk">
             </div>

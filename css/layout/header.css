@@ -56,6 +56,9 @@ border-radius: 4px;
     padding-bottom: 8px;
     padding-left: 8px;
     font-size: 16px;
+    background-origin: padding-box;
+     border: 2px solid #70C05B;
+     background-color: #e2dddd;
 }
 .card2-img{
     max-width: 30px;

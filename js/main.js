@@ -1,9 +1,11 @@
 
 
 let homeCards = document.getElementById("home-cards")
-let filterProducts = products.filter((el) => el.discount > 0)
-let sliceProducts = filterProducts.slice(filterProducts.length-4 , filterProducts.length)
-sliceProducts.map((el) => {
+let filterProductsMain = products.filter((el) => el.discount > 0)
+let sliceProductsMain = filterProductsMain.slice(filterProductsMain.length-4 , filterProductsMain.length)
+sliceProductsMain.map((el) => {
+  console.log(el);
+  
     homeCards.innerHTML +=`
                   <a href="../imges/tavar1440.html?id=${el.id}" class="aksiy2">
             <div class="h-[100px]">
