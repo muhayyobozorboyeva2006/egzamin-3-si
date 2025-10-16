@@ -14,3 +14,32 @@
     display: grid;
     grid-template-columns: repeat( 3 , auto);
 }
+.menu3 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.menu4 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+@media (max-width:1180px) {
+    .menu2{
+display: flex;
+flex-direction: column;
+
+    }
+}
+@media (max-width:1180px) {
+    .menu3 {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media (max-width:1180px) {
+    .menu4 {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

@@ -8,25 +8,37 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div id="loading" class="loadin">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  </div>
   <header>
     <div class="container card">
       <a href="/">
         <img src="../paka/logo (6).png" alt="logo">
       </a>
-
+      
       <div class="card1">
         <img class="card1-img" src="../paka/menu.png" alt="menu">
         <h3 class="card1-h1">Каталог</h3>
       </div>
       <div class="card2">
-        <input class="card2-h2"  placeholder="Найти товар" type="text">
-        <h2 ></h2>
-        <img class="card2-img" src="../paka/search.png" alt="tug'ma qiduru">
+        <input id="input" class="card2-h2" placeholder="Найти товар" type="text">
+        <div id="searchcards" class="search-cards" >
+     
+     
+        </div>
       </div>
+        
+      
       <ul class="card3">
         <li class="card3-li">
           <img class="card3-li_img" src="../paka/Frame 211 (2).png" alt="layk">
-          <a class="card3-li_p" href="../imges/katigoriy1440.html">Избранное</a>
+          <a class="card3-li_p" href="./imges/katigoriyi.html">Избранное</a>
         </li>
         <li class="card3-li">
           <img class="card3-li_img" src="../paka/Frame 211 (3).png" alt="layk">
@@ -44,6 +56,7 @@
       </div>
     </div>
   </header>
+ 
   <main>
     <section id="hero">
       <h1>
@@ -239,11 +252,13 @@
     </ul>
     <div class="card40">
       <img class="card40-img" src="../paka/avatar (5).png" alt="odam">
-      <p class="card40-p">Алексей</p>
       <img src="../paka/Button (1).png" alt="Button">
     </div>
   </div>
+
   <script src="./products-data/products-data.js"></script>
+  <script src="./js/loading.js"></script>
+  <script src="./js/search.js"></script>
   <script src="./js/aksiycard3.js"></script>
   <script src="./js/aksiy.js"></script>
   <script src="./js/main.js"></script>
