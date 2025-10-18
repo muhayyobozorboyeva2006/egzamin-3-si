@@ -1,5 +1,6 @@
-let loading=document.getElementById("loading")
 window.addEventListener("load" , function(){
-    loading.classList.add("loadin")
-    
+    setTimeout(function(){
+        document.getElementById("loadingcard").style.display = "none";
+        // document.getElementById("main-content").style.display = "block";
+    }, 3000) 
 })
