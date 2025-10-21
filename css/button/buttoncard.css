@@ -1,0 +1,33 @@
+.buttoncard{
+    justify-content:center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width:100% ;
+    gap: 10px;
+    padding: 3px;
+}
+.btncard1{
+    justify-content:center;
+    font-size:34px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: green;
+    border: seagreen;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btncard2 {
+    justify-content:center;
+    font-size:34px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:red;
+    border: red;
+     border-radius: 2px;
+     cursor: pointer;
+}

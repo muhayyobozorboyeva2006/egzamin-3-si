@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
 
@@ -16,7 +17,7 @@
 
   <header>
     <div class="container card">
-      <a href="/">
+      <a href="">
         <img class="max-w-[300px]" src="../paka/logo (6).png" alt="logo">
       </a>
       
@@ -24,7 +25,7 @@
         <img class="card1-img " src="../paka/menu.png" alt="menu">
         <h3 class="card1-h1 ">Каталог</h3>
       </div>
-      <div class="card ">
+      <div class=" bosh ">
         <input id="input" class="card2-h2 " placeholder="Найти товар" type="text">
         <div id="searchcards" class="search-cards " >
      
@@ -43,15 +44,21 @@
           <a class="card3-li_p  " href="../imges/maxsulod.html">продукты</a>
         </li>
         <li class="card3-li  ">
-          <img class="card3-li_img" src="../paka/Frame 211 (4).png" alt="layk">
-          <a class="card3-li_p  " href="../imges/katigoriy1440.html">Корзина <span id="badge"></span></a>
+          <div class=" card3-li-3 ">
+            <img class="card3-li_img" src="../paka/Frame 211 (4).png" alt="layk">
+            <div id="badge" class="badge"></div>
+          </div>
+          <a class="card3-li_p  " href="./imges/card.html">Корзина </a>
         </li>
       </ul>
+   
       <div class="card4 ">
         <img class="card4-img" src="../paka/avatar (5).png" alt="odam">
         <p class="card4-p ">Алексей</p>
-        <img src="../paka/Button (1).png" alt="Button">
       </div>
+      <a href="./imges/katigoriy1440.html">
+        <img src="../paka/Button (1).png" alt="Button">
+        </a>
     </div>
   </header>
  
@@ -63,6 +70,22 @@
         <br>
         <br>
       </h1>
+    </section>
+    <section id="aksiyy">
+      <div class="container aksiy ">
+        <div class="aksiylar">
+          <h1 class="aksiy-h1">Arlash maxshulotlar</h1>
+          <a href="./imges/Bce naradek.html">
+            <div class="aksiy1">
+              <h2 class="aksiy1-h2">Все продукты</h2>
+              <img class="aksiy1-img" src="../paka/Button (1).png" alt="kavol">
+            </div>
+          </a>
+        </div>
+        <div id="homecardslar" class="aksiylar3">
+      
+        </div>
+      </div>
     </section>
     <section id="aksiyy">
       <div class="container aksiy ">
@@ -239,9 +262,12 @@
         <img class="card30-li_img" src="../paka/Frame 211 (3).png" alt="layk">
         <a class="card3-li_p" href="./maxsulod.html">продукты</a>
       </li>
-      <li class="card30-li">
-        <img class="card30-li_img" src="../paka/Frame 211 (4).png" alt="layk">
-        <a class="card3-li_p" href="./katigoriy1440.html">Корзина</a>
+      <li class="card3-li  ">
+        <div class=" card3-li-3 ">
+          <img class="card3-li_img" src="../paka/Frame 211 (4).png" alt="layk">
+          <div id="badge" class="badge"></div>
+        </div>
+        <a class="card3-li_p  " href="../imges/katigoriy1440.html">Корзина </a>
       </li>
     </ul>
     <div class="card40">
@@ -251,7 +277,7 @@
   </div>
 
   <script src="./products-data/products-data.js"></script>
-  <script src="./js/btn.js"></script>
+  <script src="./js/botton.js"></script>
   <script src="./js/loading.js"></script>
   <script src="./js/search.js"></script>
   <script src="./js/aksiycard3.js"></script>

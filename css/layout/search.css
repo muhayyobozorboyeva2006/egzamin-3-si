@@ -1,13 +1,14 @@
 .search-cards{
-    position: absolute;
+  
     top: 80%;
     background-color:white;
-    /* display: flex;
-    flex-direction: column; */
+    /* display: flex; */
+    flex-direction: column;
     gap:8px;
     height: 340px;
     touch-action: auto;
      overflow-y: auto;
+     position: absolute;
 }
 
 .search-card{

@@ -10,6 +10,7 @@ position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(4px);
+        
 }
 .card{
 display: flex;
@@ -41,7 +42,7 @@ border-radius: 4px;
     color: white;
     line-height: 150%;
 }
-.card{
+.bosh{
     position: relative;
     position: sticky;
 }
@@ -91,6 +92,19 @@ font-size: 12px;
   margin-left: 10px;
   margin-right: 30px;
 
+}
+.card3-li-3{
+display: flex;}
+.badge{
+width: 20px;
+height:20px;
+background-color: rgba(206, 68, 13, 0.914);
+color: white;
+font-size: 10px;
+border-radius: 3px;
+text-align: center;
+padding-top: 5px;
+margin-bottom: 10px;
 }
 @media(max-width:970px){
     .card3{
