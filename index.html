@@ -21,7 +21,7 @@
         <img class="max-w-[300px]" src="../paka/logo (6).png" alt="logo">
       </a>
       
-      <div class="card1 ">
+      <div  id="cards10" class="card1 ">
         <img class="card1-img " src="../paka/menu.png" alt="menu">
         <h3 class="card1-h1 ">Каталог</h3>
       </div>
@@ -52,16 +52,36 @@
         </li>
       </ul>
    
-      <div class="card4 ">
+      <div id="profilBtn" class="card4 ">
         <img class="card4-img" src="../paka/avatar (5).png" alt="odam">
         <p class="card4-p ">Алексей</p>
-      </div>
-      <a href="./imges/katigoriy1440.html">
         <img src="../paka/Button (1).png" alt="Button">
-        </a>
+      </div>
     </div>
   </header>
- 
+  <div id="cards" class="container cards">
+    <div class="cards1">
+      <a class="cards1-a" href="">Молоко, сыр, яйцо</a>
+      <a class="cards1-a" href="">Хлеб</a>
+      <a class="cards1-a" href="">Фрукты и овощи</a>
+      <a class="cards1-a" href="">Замороженные продукты</a>
+    </div>
+    <div class="cards1">
+      <a class="cards1-a" href="">Напитки</a>
+      <a class="cards1-a" href="">Кондитерские изделия</a>
+      <a class="cards1-a" href="">Чай, кофе</a>
+    </div>
+    <div class="cards1">
+      <a class="cards1-a" href="">Бакалея</a>
+      <a class="cards1-a" href="">Здоровое питание</a>
+      <a class="cards1-a" href="">Зоотовары</a>
+    </div>
+    <div class="cards1">
+      <a class="cards1-a" href="">Непродовольственные товары</a>
+      <a class="cards1-a" href="">Детское питание</a>
+      <a class="cards1-a" href="">Мясо, птица, колбаса</a>
+    </div>
+  </div>
   <main>
     <section id="hero">
       <h1>
@@ -275,8 +295,22 @@
       <img src="../paka/Button (1).png" alt="Button">
     </div>
   </div>
+  <div id="profilOyna"  class=" parol5">
+    <div   class="parol2">
+      <span class="closeBtn" id="yopishX">&times;</span>
+      <h1 class="malutlar">O'zingiz haqingizda ma'lumd</h1>
+      <form id="forminput" class="parol">
+        <input class="parol1"  id="ism"  placeholder="ism" type="text">
+        <input class="parol1" id="email" placeholder="famil" type="password">
+        </form>
+        <button class="parol3" id="jonatishBtn">Jonatish</button>
+        <div class="error" id="xatoMatni"></div>
 
+    </div>
+  </div>
   <script src="./products-data/products-data.js"></script>
+  <script src="./js/bubling-caturing.js"></script>
+  <script src="./js/cards.js"></script>
   <script src="./js/botton.js"></script>
   <script src="./js/loading.js"></script>
   <script src="./js/search.js"></script>

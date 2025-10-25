@@ -1,5 +1,5 @@
 let productsCardslar = document.getElementById("homecardslar");
-let card = JSON.parse(localStorage.getItem("card") === "undefined" || "[]")
+let card = JSON.parse(localStorage.getItem("card") || "[]")
 
 let badge = document.getElementById("badge")
 localStorage.setItem("card", JSON.stringify(card))
@@ -56,8 +56,6 @@ function increaseQuatity(id) {
   item.qty += 1
   localStorage.setItem("card", JSON.stringify(card))
   showcards(productsCardslar, products);
-  console.log(cart);
-
 }
 
 function decreaseQuatity(id) {
